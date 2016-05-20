@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alias xmlns:android="http://schemas.android.com/apk/res/android">
+    <intent
+        android:action="android.alis.action.STARTMAIN"
+        android:targetClass="com.view.sg.activityseries.MainActivity"
+        android:targetPackage="com.view.sg.activityseries" />
+</alias>

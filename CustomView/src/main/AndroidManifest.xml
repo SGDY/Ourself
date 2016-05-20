@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.view.sg.customview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".textview.ChronometerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gridlayout.GridLayoutActivity"
+            android:label="@string/title_activity_grid_layout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".togglebutton.ToggleButtonActivity"
+            android:label="@string/title_activity_toggle_button"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".togglebutton.ToggleButtonActivity2"
+            android:label="@string/title_activity_toggle_button2"
+            android:theme="@style/YourThemeName" />
+        <activity
+            android:name=".textview.TextClockActivity"
+            android:label="@string/title_activity_text_clock"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".imageview.ImageViewActivity" />
+        <activity android:name=".imagebutton.ImageButtonActivity" />
+        <activity android:name=".imageview.QuickContactBadgeActivity" />
+        <activity android:name=".adapterviewanimator.StackViewActivity" />
+        <activity android:name=".viewanimator.ViewSwitcherActivity" />
+        <activity android:name=".viewanimator.ImageSwitcherActivity" />
+        <activity android:name=".viewanimator.TextSwitcherActivity" />
+        <activity android:name=".viewanimator.ViewFlipperActivity" />
+        <activity android:name=".adapterviewanimator.AdapterViewFlipperActivity" />
+        <activity android:name=".image.SearchAssetsImageActivity" />
+        <activity android:name=".image.MyViewActivity" />
+        <activity android:name=".image.PathActivity" />
+        <activity android:name=".image.TextOnPathActivity" />
+        <activity android:name=".image.DrawViewActivity" />
+        <activity android:name=".image.PinBallActivity" />
+        <activity android:name=".image.MatrixActivity" />
+        <activity android:name=".image.MoveBackActivity"></activity>
+    </application>
+
+</manifest>
