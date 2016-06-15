@@ -46,8 +46,9 @@ public class MyService extends Service {
     @Override
     public boolean onUnbind(Intent intent) {
         Log.d(Constant.TAG, "onUnbind ...");
-        return super.onUnbind(intent);
-//        return true;//默认返回false 但是onRebind()不会执行；返回true，在此绑定会执行onRebind()
+//        return super.onUnbind(intent);
+        //默认返回false 但是onRebind()不会执行；返回true，在此绑定会执行onRebind(),必须startService和bindService都执行后，此方法才会调用
+        return true;
     }
 
     class MyBinder extends Binder {
