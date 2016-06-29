@@ -1,1 +1,1 @@
-include ':RecyclerViewDemo', ':DrawView', ':DialogFragmentDemo', ':CustomView', ':NDKDemo', ':MessageHandler', ':ActivitySeries', ':Test', ':UriTest', ':AIDLService', ':volleytest'
+include ':RecyclerViewDemo', ':DrawView', ':DialogFragmentDemo', ':CustomView', ':NDKDemo', ':MessageHandler', ':ActivitySeries', ':Test', ':UriTest', ':AIDLService', ':volleytest', ':drawablexml', ':statedrawables'
