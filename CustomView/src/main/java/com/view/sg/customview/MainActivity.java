@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_pin_ball).setOnClickListener(v -> startActivity(new Intent(this, PinBallActivity.class)));
         findViewById(R.id.button_matrix).setOnClickListener(v -> startActivity(new Intent(this, MatrixActivity.class)));
         findViewById(R.id.button_plane).setOnClickListener(v -> startActivity(new Intent(this, MoveBackActivity.class)));
+        findViewById(R.id.button_rect).setOnClickListener(v -> startActivity(new Intent(this, RectActivity.class)));
     }
 
     @Override

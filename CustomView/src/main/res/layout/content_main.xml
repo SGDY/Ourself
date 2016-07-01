@@ -164,5 +164,12 @@
             android:layout_height="wrap_content"
             android:text="飞机游戏"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_rect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rect"
+            android:textAllCaps="false" />
     </GridLayout>
 </HorizontalScrollView>
