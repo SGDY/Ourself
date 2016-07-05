@@ -164,5 +164,19 @@
             android:layout_height="wrap_content"
             android:text="飞机游戏"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_touch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩放图片"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_rotate_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩放图片2"
+            android:textAllCaps="false" />
     </GridLayout>
 </HorizontalScrollView>

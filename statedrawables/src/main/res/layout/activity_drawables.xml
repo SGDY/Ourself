@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:text="Buttons"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Standard Button"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Custom Background Drawable"
-        android:background="@drawable/background_button"
-        android:stateListAnimator="@animator/button_press"/>
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:text="CheckBoxes"/>
+        android:text="Buttons"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standard Button"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:stateListAnimator="@animator/button_press"
+        android:text="Custom Background Drawable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="CheckBoxes"
+        android:textAppearance="?android:textAppearanceLarge" />
+
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Standard CheckBox"/>
+        android:text="Standard CheckBox" />
+
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Custom Button Drawable"
-        android:button="@drawable/background_checkable"/>
+        android:button="@drawable/background_checkable"
+        android:text="Custom Button Drawable" />
 </LinearLayout>

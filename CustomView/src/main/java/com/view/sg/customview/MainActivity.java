@@ -22,6 +22,8 @@ import com.view.sg.customview.image.PinBallActivity;
 import com.view.sg.customview.image.SearchAssetsImageActivity;
 import com.view.sg.customview.image.TextOnPathActivity;
 import com.view.sg.customview.imagebutton.ImageButtonActivity;
+import com.view.sg.customview.imageview.ImageRotateActivity;
+import com.view.sg.customview.imageview.ImageTouchViewActivity;
 import com.view.sg.customview.imageview.ImageViewActivity;
 import com.view.sg.customview.imageview.QuickContactBadgeActivity;
 import com.view.sg.customview.textview.ChronometerActivity;
@@ -76,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_pin_ball).setOnClickListener(v -> startActivity(new Intent(this, PinBallActivity.class)));
         findViewById(R.id.button_matrix).setOnClickListener(v -> startActivity(new Intent(this, MatrixActivity.class)));
         findViewById(R.id.button_plane).setOnClickListener(v -> startActivity(new Intent(this, MoveBackActivity.class)));
+        findViewById(R.id.button_touch_view).setOnClickListener(v -> startActivity(new Intent(this, ImageTouchViewActivity.class)));
+        findViewById(R.id.button_rotate_view).setOnClickListener(v -> startActivity(new Intent(this, ImageRotateActivity.class)));
     }
 
     @Override

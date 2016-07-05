@@ -45,7 +45,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
         return mData != null ? mData.size() : 0;
     }
 
-    public class GridViewHolder extends RecyclerView.ViewHolder{
+    public class GridViewHolder extends RecyclerView.ViewHolder {
 
         private ImageView ivIcon;
         private TextView tvName;

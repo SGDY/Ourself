@@ -54,7 +54,9 @@
         <activity android:name=".image.DrawViewActivity" />
         <activity android:name=".image.PinBallActivity" />
         <activity android:name=".image.MatrixActivity" />
-        <activity android:name=".image.MoveBackActivity"></activity>
+        <activity android:name=".image.MoveBackActivity" />
+        <activity android:name=".imageview.ImageTouchViewActivity" />
+        <activity android:name=".imageview.ImageRotateActivity"></activity>
     </application>
 
 </manifest>
