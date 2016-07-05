@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_plane).setOnClickListener(v -> startActivity(new Intent(this, MoveBackActivity.class)));
         findViewById(R.id.button_touch_view).setOnClickListener(v -> startActivity(new Intent(this, ImageTouchViewActivity.class)));
         findViewById(R.id.button_rotate_view).setOnClickListener(v -> startActivity(new Intent(this, ImageRotateActivity.class)));
+        findViewById(R.id.button_rect).setOnClickListener(v -> startActivity(new Intent(this, RectActivity.class)));
     }
 
     @Override

@@ -57,6 +57,7 @@
         <activity android:name=".image.MoveBackActivity" />
         <activity android:name=".imageview.ImageTouchViewActivity" />
         <activity android:name=".imageview.ImageRotateActivity"></activity>
+        <activity android:name=".RectActivity"></activity>
     </application>
 
 </manifest>
